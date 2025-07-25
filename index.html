@@ -16,7 +16,51 @@
         </div>
         <p id="credit">Picture by Halie West on Unsplash</p>
       </div>
-      
+      <section class="right-side">
+        <p class="top-para">
+          This is not a real online service! You know you need something <br />
+          like this in your life to help you realize your deepest dreams.<br />
+          Sign up <i>now</i> to get started.
+        </p>
+        <p class="top-para">You <i>know</i> you want to.</p>
+        <form id="myForm">
+          <h1>Let's do this!</h1>
+          <section class="form">
+            <label for="firstname">
+              FIRST NAME<br />
+              <input type="text" id="firstname" name="firstname" />
+            </label>
+            <label for="lastname">
+              LAST NAME<br />
+              <input type="text" id="lastname" name="lastname" />
+            </label>
+            <label for="email">
+              EMAIL<br />
+              <input type="email" id="email" name="email" />
+            </label>
+            <label for="phone">
+              PHONE NUMBER<br />
+              <input type="cel" id="phone" name="phone" />
+            </label>
+            <label for="pwd">
+              PASSWORD<br />
+              <input type="password" id="pwd" name="pwd" required />
+            </label>
+            <label for="confirm_pwd">
+              CONFIRM PASSWORD<br />
+              <input
+                type="password"
+                id="confirm_pwd"
+                name="confirm_pwd"
+                required
+              />
+            </label>
+          </section>
+        </form>
+        <!-- Button outside the form but still submits it -->
+        <button type="submit" form="myForm">Create Account</button>
+        <p>Already have an account? <a href="">Log in</a></p>
+      </section>
     </div>
   </body>
 </html>
